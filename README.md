@@ -6,6 +6,7 @@
     - [Selection In File Commands](#selection-in-file-commands)
     - [Selection In Folder Commands](#selection-in-folder-commands)
 - [Custom ShortCut](#custom-shortcut)
+    - [Textcase Transformation](#textcase-transformation)
 - [Extension: Cursor Align](#extension-cursor-align)
 
 ## Base Program Commands
@@ -88,7 +89,45 @@
 
 ## Custom ShortCuts
 
-Consequat aliqua quis reprehenderit deserunt qui. Do esse proident exercitation eiusmod ex officia. Labore nostrud velit esse proident voluptate excepteur eiusmod.
+This section contains commands that are present in VSCode, but does not have an asigned keybind. The presented keybinds are suggestion that must be implemented in your editor's settings.
+
+### Textcase Transformation
+
+- Transform to Camel Case
+
+    ```
+    Shift + Alt + C
+    ```
+
+- Transform to Kebab Case
+
+    ```
+    Shift + Alt + K
+    ```
+
+- Transform to Lowercase
+
+    ```
+    Shift + Alt + L
+    ```
+
+- Transform to Snake Case
+
+    ```
+    Shift + Alt + S
+    ```
+
+- Transform to Title Case
+
+    ```
+    Shift + Alt + T
+    ```
+
+- Transform to Uppercase
+
+    ```
+    Shift + Alt + U
+    ```
 
 ## [Extension: Cursor Align](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-align)
 
