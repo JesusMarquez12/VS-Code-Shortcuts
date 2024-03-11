@@ -62,7 +62,13 @@
     through symbols, first open the _Quick Open Menu_ and then select the _at_ symbol:
 
     ```
-    Ctrl + P, @
+    Ctrl + P, @, or, Ctrl + Shift + O
+    ```
+
+- Search Symbols Through Top Bar
+
+    ```
+    Ctrl + Shift + .
     ```
 
 - Scroll Through File
@@ -139,7 +145,13 @@
 
 #### In-Editor Commands
 
-- Selecting All Occurrences Of The Current Word
+- Select Actual Line
+
+    ```
+    Ctrl + L
+    ```
+
+<!-- - Selecting All Occurrences Of The Current Word -->
 
     ```
     Ctrl + F2
@@ -183,6 +195,12 @@
     Ctrl + Shift + H
     ```
 
+- Find All References
+
+    ```
+    Alt + Shift + F12
+    ```
+
 ## Custom Shortcuts
 
 This section contains commands that are present in VSCode, but does not have an asigned keybind or have a different one based on the operative system or language. The presented keybinds are suggestion that must be implemented in your editor's settings.
@@ -206,13 +224,13 @@ This section contains commands that are present in VSCode, but does not have an 
 - Copy Selection Down
 
     ```
-    Ctrl + L, D
+    Ctrl + Shift + L, D
     ```
 
 - Copy Selection Up
 
     ```
-    Ctrl + L, U
+    Ctrl + Shift + L, U
     ```
 
 ### Textcase Transformation
