@@ -2,24 +2,140 @@
 
 # List of Commands
 - [Base Program Commands](#base-program-commands)
+    - [View Commands](#view-commands)
     - [Options Commands](#options-commands)
     - [Selection In File Commands](#selection-in-file-commands)
     - [Selection In Folder Commands](#selection-in-folder-commands)
-- [Custom ShortCut](#custom-shortcut)
+- [Custom Shortcuts](#custom-shortcuts)
+    - [Custom View Commands](#custom-view-commands)
+    - [Custom Edition Commands](#custom-edition-commands)
     - [Textcase Transformation](#textcase-transformation)
 - [Extension: Cursor Align](#extension-cursor-align)
 
 ## Base Program Commands
 
-### Options Commands
+### View Commands
 
-- Open Command Pallete
+#### External Commands
+
+- Open Quick Open Menu
 
     ```
-    F1
+    Ctrl + P
+    ```
+
+- Open Settings Menu
+
+    ```
+    Ctrl + ,
+    ```
+
+- Increase View Size
+
+    ```
+    Ctrl + +
+    ```
+
+- Decrease View Size
+
+    ```
+    Ctrl + -
+    ```
+
+- Toggle Editor Sidebar
+
+    ```
+    Ctrl + B
+    ```
+
+- Close Actual Tab
+
+    ```
+    Ctrl + W
+    ```
+
+#### In-Editor Commands
+
+- Search Through File Symbols
+
+    Symbols are things like class, type or function definitions, heading levels or other significative elements. To search
+    through symbols, first open the _Quick Open Menu_ and then select the _at_ symbol:
+
+    ```
+    Ctrl + P, @
+    ```
+
+- Scroll Through File
+
+    ```
+    Ctrl + ↑ or Ctrl + ↓
+    ```
+
+- Move Selection Through File
+
+    ```
+    Alt + ↑ or Alt + ↓
+    ```
+
+- Fold All
+
+    ```
+    Ctrl + K, Ctrl + 0
+    ```
+
+- Unfold All
+
+    ```
+    Ctrl + K, Ctrl + J
+    ```
+
+- Fold Section
+
+    ```
+    Ctrl + {
+    ```
+
+- Unfold Section
+
+    ```
+    Ctrl + }
+    ```
+
+- Create New Line
+
+    ```
+    Ctrl + Enter
+    ```
+
+    ### Options Commands
+
+- Open Command Palette
+
+    ```
+    Ctrl + Shift + P or F1
     ```
 
 ### Selection In File Commands
+
+#### External Commands
+
+- Open Find Pop-Up Window
+
+    ```
+    Ctrl + F
+    ```
+
+- Select All Coincidences Of Current Selection During Find Pop-Up Window
+
+    ```
+    Alt + Enter
+    ```
+
+- Open Replace All Ocurrences Pop-Up Window
+
+    ```
+    Ctrl + H
+    ```
 
 #### In-Editor Commands
 
@@ -53,26 +169,6 @@
     Ctrl + Shift + L
     ```
 
-#### External Commands
-
-- Open Find Pop-Up Window
-
-    ```
-    Ctrl + F
-    ```
-
-- Select All Coincidences Of Current Selection During Find Pop-Up Window
-
-    ```
-    Alt + Enter
-    ```
-
-- Open Replace All Ocurrences Pop-Up Window
-
-    ```
-    Ctrl + H
-    ```
-
 ### Selection In Folder Commands
 
 - Open Find All Ocurrences Menu
@@ -87,9 +183,37 @@
     Ctrl + Shift + H
     ```
 
-## Custom ShortCuts
+## Custom Shortcuts
 
-This section contains commands that are present in VSCode, but does not have an asigned keybind. The presented keybinds are suggestion that must be implemented in your editor's settings.
+This section contains commands that are present in VSCode, but does not have an asigned keybind or have a different one based on the operative system or language. The presented keybinds are suggestion that must be implemented in your editor's settings.
+
+### Custom View Commands
+
+- Toggle Editor Terminal
+
+    ```
+    Ctrl + Shift + +
+    ```
+
+- Split Editor
+
+    ```
+    Ctrl + \
+    ```
+
+### Custom Edition Commands
+
+- Copy Selection Down
+
+    ```
+    Ctrl + L, D
+    ```
+
+- Copy Selection Up
+
+    ```
+    Ctrl + L, U
+    ```
 
 ### Textcase Transformation
 
