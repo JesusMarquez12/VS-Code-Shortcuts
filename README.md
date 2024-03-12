@@ -113,7 +113,7 @@
     Ctrl + Enter
     ```
 
-    ### Options Commands
+### Options Commands
 
 - Open Command Palette
 
@@ -137,7 +137,7 @@
     Alt + Enter
     ```
 
-- Open Replace All Ocurrences Pop-Up Window
+- Open Replace All Occurrences Pop-Up Window
 
     ```
     Ctrl + H
@@ -151,7 +151,13 @@
     Ctrl + L
     ```
 
-<!-- - Selecting All Occurrences Of The Current Word -->
+- Add A Cursor Per Line In The Selected Text
+
+    ```
+    Alt + Shift + I
+    ```
+
+- Selecting All Occurrences Of The Current Word
 
     ```
     Ctrl + F2
@@ -183,13 +189,13 @@
 
 ### Selection In Folder Commands
 
-- Open Find All Ocurrences Menu
+- Open Find All Occurrences Menu
 
     ```
     Ctrl + Shift + F
     ```
 
-- Open Replace All Ocurrences Menu
+- Open Replace All Occurrences Menu
 
     ```
     Ctrl + Shift + H
@@ -203,7 +209,7 @@
 
 ## Custom Shortcuts
 
-This section contains commands that are present in VSCode, but does not have an asigned keybind or have a different one based on the operative system or language. The presented keybinds are suggestion that must be implemented in your editor's settings.
+This section contains commands that are present in VSCode, but does not have an assigned keybind or have a different one based on the operative system or language. The presented keybinds are suggestion that must be implemented in your editor's settings.
 
 ### Custom View Commands
 
@@ -273,7 +279,7 @@ This section contains commands that are present in VSCode, but does not have an 
 
 ## [Extension: Cursor Align](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-align)
 
-- Add Space Padding Until Furthest Caracter In Selection Lines
+- Add Space Padding Until Furthest Character In Selection Lines
 
     ```
     Alt + A
