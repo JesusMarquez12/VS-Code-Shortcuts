@@ -189,6 +189,12 @@
 
 ### Selection In Folder Commands
 
+- Navigate The Explorer Menu
+
+    ```
+    Ctrl + Shift + E
+    ```
+
 - Open Find All Occurrences Menu
 
     ```
