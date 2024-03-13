@@ -14,8 +14,9 @@ This is an extensible list of the existent or customizable keybindings present i
   - [Custom Menu Commands](#custom-menu-commands)
   - [Custom Edition Commands](#custom-edition-commands)
   - [Textcase Transformation](#textcase-transformation)
-- [Extension: Cursor Align](#extension-cursor-align)
-- [Extension: Solargraph](#extension-solargraph)
+- [Marketplace Extensions](#marketplace-extensions)
+  - [Cursor Align](#cursor-align)
+  - [Solargraph](#solargraph)
 
 ## Base Program Commands
 
@@ -314,7 +315,9 @@ This section contains commands that are present in VSCode, but does not have an 
   Alt + Shift + U
   ```
 
-## [Extension: Cursor Align](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-align)
+## Marketplace Extensions
+
+### [Cursor Align](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-align)
 
 - Add Space Padding Until Furthest Character In Selection Lines
 
@@ -322,7 +325,7 @@ This section contains commands that are present in VSCode, but does not have an 
   Alt + A
   ```
 
-## [Extension: Solargraph](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-align)
+### [Solargraph](https://marketplace.visualstudio.com/items?itemName=yo1dog.cursor-align)
 
 - Search Ruby Documentation
 
