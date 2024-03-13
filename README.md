@@ -1,4 +1,6 @@
-# List of key shortcuts in VSCode (Ubuntu)
+# List of keybinds for shortcuts in VSCode (Ubuntu)
+
+This is an extensible list of the existent or customizable keybindings present in Vscode. This keybinds are retrieved from a Ubuntu 22.04 OS, and a Spanish (Latin America) Keyboard Layout.
 
 # List of Commands
 - [Base Program Commands](#base-program-commands)
