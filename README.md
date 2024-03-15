@@ -226,6 +226,18 @@ This is an extensible list of the existent or customizable keybindings present i
   ```
   Ctrl + Enter
   ```
+  
+- Indent Line
+
+  ```
+  Ctrl + Shift + }
+  ```
+  
+- Outdent Line
+
+  ```
+  Ctrl + Shift + { or Shift + Tab
+  ```
 
 - Move Selection Through File
 
@@ -261,6 +273,26 @@ This section contains commands that are present in VSCode, but does not have an 
 
   ```
   Ctrl + \
+  ```
+
+- Create New File While In Explorer Menu
+
+  To create this Shortcut, is necessary to add a new command to the Keyboard Shortcuts JSON file. To do that, search for in the Command Pallette (F1) the command: `Preferences: Open Keyboard Shortcuts`.
+
+  Then, at the end of the file, but inside of the square brackets structure, add the next block of text:
+
+  ```json
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  }
+  ```
+
+  After that, when opening the [Explorer Menu](#exploration-and-search-menu-commands), the command will be available to be executed with the shortcut:
+  
+  ```
+  Ctrl + N
   ```
 
 ### Custom Edition Commands
